@@ -1,0 +1,25 @@
+1 passo: abre uma pasta nova no vscode e abre o terminal
+
+2 passo: instale o pacote npm init -y e logo após esses: npm install body-parser cors dotenv dotenv-safe express mysql2 readline-sync sequelize
+
+3 passo: cria a estrutura de pastas e o orm(mapeamento)
+
+config/database.js
+
+controller/exemplo_controller.js
+
+models/exemplo_models.js
+
+routes/exemplo_routes.js
+
+server.js
+
+4 passo: faça o banco e a conexão do mesmo com o node
+
+5 passo: instalar o rest client
+
+6 passo: seguir o repositorio do github
+
+7 passo: configura o nodemon para o servidor sempre ficar executando e atualizando a cada ctrl s
+
+8 passo: Verifique sempre o banco e as rotas pra ver se bate, e o mesmo com o controller pra ver se funciona os endpoints
