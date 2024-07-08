@@ -8,3 +8,6 @@ create table usuarios (
     email VARCHAR(255) NOT NULL UNIQUE,
     telefone VARCHAR(20) NOT NULL
 );
+
+insert into usuarios(cpf,nome,email,telefone)
+    values(12886811947,"Yasmin","yasmin@teste.com",992035484);
